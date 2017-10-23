@@ -1,0 +1,12 @@
+twitchRPG_api/authentication.py
+config.py
+build/
+dist/
+tests/files/*
+*.idea
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
