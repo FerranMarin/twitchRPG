@@ -6,7 +6,7 @@ from flask import Blueprint
 from twitchRPG_core.models import Player, Enemy
 from twitchRPG_api.authentication import auth
 from .. import filters
-from path51api.authentication import auth
+
 
 base_api = Blueprint('base_api', __name__)
 

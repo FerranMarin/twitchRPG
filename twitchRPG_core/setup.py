@@ -2,10 +2,9 @@ from setuptools import setup
 
 setup(
     name='twitchRPG_core',
-    version='1.3',
+    version='0.1',
     packages=[
         'twitchRPG_core',
-        'twitchRPG_core.config',
         'twitchRPG_core.notify',
         'twitchRPG_core.notify.templates',
     ],

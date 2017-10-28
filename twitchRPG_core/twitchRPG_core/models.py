@@ -7,7 +7,7 @@ import arrow
 from twitchRPG_core import config
 from twitchRPG_core.notify import email
 
-sqlquerylog = config.FS_SCRIPT_LOGS + 'sql-queries.log'
+sqlquerylog = config.FS_LOGS + 'sql-queries.log'
 logging.basicConfig(filename=sqlquerylog, level=logging.INFO)
 
 
